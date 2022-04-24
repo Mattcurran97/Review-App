@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#message {
+  color: red;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+.menu {text-align: right;}
+
+.search-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+input{
+  font-size: 1rem;
+}
+
+.review-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 450px));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+
+.card{
+  border: 1px solid black;
+  background-color: white;
+  padding: .5rem;
+}
+
+.card > header{
+  margin-bottom: .25rem;
+}
+
+.hide{
+  display: none;
+}
+
+
