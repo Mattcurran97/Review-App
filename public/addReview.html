@@ -16,12 +16,20 @@
     <h1>Create A Review</h1>
     <br>
 
-    <form>
-        <label>Company name/ Product</label><br>
-        <input><br>
-        <label>Review</label><br>
-        <textarea id="review" name="review" rows="4" cols="50"></textarea><br><br>
-        <button>Submit Review</button>
+    <form action="index.html" method="post">
+        <label for="Copany">Company Name</label><br>
+        <input type="text" name="Company" id="Company" placeholder="Company Name"><br>
+        <label for="review">Review</label><br>
+        <textarea id="review" name="review" rows="4" cols="50"></textarea><br>
+        <label for="rating">Select a Rating</label>
+        <select name="rating" id="rating">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select><br><br>
+        <button type="submit">Submit Review</button>
 
     </form>
 
